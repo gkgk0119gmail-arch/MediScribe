@@ -18,7 +18,7 @@
       out/joymap_<시각>.log  상태 로그(5초마다)
 실시간 보기: 브라우저 http://<젯슨>:8765  — 지도, 궤적, 현재 위치·방향, 현재 라이다 점(초록)
 
-실행 (저장소 루트에서):
+실행 (sw/ 에서):
   python3 scripts/mapping_joy.py                 # 실차
   python3 scripts/mapping_joy.py --no-motor      # 모터 없이 라이다+SLAM 만 (차를 손으로 밀어 시험)
 

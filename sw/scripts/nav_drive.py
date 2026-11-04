@@ -15,7 +15,7 @@
 시작 위치: 마지막 위치 기억(같은 지도일 때) 또는 --init x y deg, 이어서 헤딩 360° 스윕 + 반경 탐색으로 보정.
 정지: 조이스틱 B/Back, 뷰어 s 키(POST /stop), Ctrl+C. 재개: 뷰어 g 키(POST /go).
 
-실행 (저장소 루트에서):  python3 scripts/nav_drive.py --map out/joymap_<시각>.npz --pwm 120
+실행 (sw/ 에서):  python3 scripts/nav_drive.py --map out/joymap_<시각>.npz --pwm 120
 """
 import signal as _sig
 _sig.signal(_sig.SIGINT, _sig.default_int_handler)      # &로 띄우면 SIGINT 가 무시로 상속됨 → 복구
