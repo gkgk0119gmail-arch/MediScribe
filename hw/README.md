@@ -67,3 +67,5 @@
 | `images/vehicle_inside_bom.png` | 차량 내부 부품 배치 (번호 = 위 표) |
 | `images/mast_build.jpg` | 프로파일 마스트 조립 |
 | `images/respeaker_mount.jpg` | ReSpeaker · Jetson 장착부 |
+| `images/face_field_test.jpg` | 얼굴 인식 현장 테스트 (1/5 차량 앞) |
+| `images/concept_illustration.jpg` | 목표 형상 개념도 (팀 제작 일러스트, 설계) |
