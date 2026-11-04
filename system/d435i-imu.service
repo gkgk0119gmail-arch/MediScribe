@@ -1,0 +1,11 @@
+[Unit]
+Description=D435i IMU (iio hid-sensor) setup: load modules, USB reset, enable gyro buffer
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/d435i-imu-setup.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

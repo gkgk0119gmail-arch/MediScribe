@@ -1,0 +1,6 @@
+# Jetson Orin NX (JetPack 6.x, Python 3.10) 에서 검증한 버전
+numpy==1.26.4        # 2.x 금지 — JetPack 의 cv2 등 numpy 1.x 로 빌드된 패키지가 깨진다
+pyserial>=3.5        # STL-27L 라이다, 아두이노
+matplotlib>=3.5      # 지도 PNG 저장, scripts/plot_run.py
+Pillow>=9.0          # 뷰어 지도 PNG (matplotlib 이 없을 때 대체)
+# pyrealsense2 — system/d435i-imu-setup.sh 의 카메라 재시작에만 쓴다. JetPack 용 librealsense 빌드에 포함된 것을 쓸 것
