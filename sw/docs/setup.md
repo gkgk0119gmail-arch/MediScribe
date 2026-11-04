@@ -1,5 +1,7 @@
 # 설치 (Jetson Orin NX · JetPack 6.x)
 
+모든 명령은 저장소의 **`sw/`** 에서 실행한다 (`cd sw`).
+
 검증 환경: Jetson Orin NX 16GB, JetPack 6.2 (L4T R36.4.3, 커널 5.15.148-tegra), Python 3.10.
 
 ## 1. 파이썬 패키지
