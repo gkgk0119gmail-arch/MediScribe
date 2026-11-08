@@ -10,7 +10,7 @@ Jetson Orin NX · Arduino Mega · 모터 드라이버 3개 · 파워뱅크가 �
 
 연세대학교 · 의료 Physical AI 솔루션 경진대회(Y‑MAS 2026) · 남윤상 · 김진찬 · 김해인 · 지민선 · 멘토 하성욱 교수
 
-[**🔧 하드웨어 `hw/`**](hw/) · [**💻 소프트웨어 `sw/`**](sw/) · [**📐 동작 원리**](sw/docs/how-it-works.md) · [**⚙️ 설치**](sw/docs/setup.md) · [**🔌 아두이노 프로토콜**](hw/firmware/PROTOCOL.md)
+[**🔧 하드웨어 `hw/`**](hw/) · [**💻 소프트웨어 `sw/`**](sw/) · [**📐 동작 원리**](sw/docs/how-it-works.md) · [**⚙️ 설치**](sw/docs/setup.md) · [**🔌 아두이노 프로토콜**](hw/firmware/PROTOCOL.md) · [**🧭 회진 파이프라인 기록**](pipeline/README.md)
 
 ---
 
@@ -286,6 +286,7 @@ sw/                        소프트웨어                                → sw
   docs/                    동작 원리 · 설치 · 결과 그림
   media/                   주행 영상 (webp 애니메이션 + mp4)
   requirements.txt
+pipeline/README.md         회진 전체 흐름 · 메모리·기동 시간 실측 · 시행착오 기록
 ```
 
 ## 알려진 한계
